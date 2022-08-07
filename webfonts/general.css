@@ -1,0 +1,46 @@
+:root{
+    --main-color: #10cba7;
+    --secondary-color: #2c4755;
+    --section-padding: 6rem;
+    --bcg-color: #f6f6f6;
+    --main-duration: 0.3s;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Work Sans" , sans-serif;
+ }
+.container{
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: 117rem;
+}
+.primary-heading{
+    font-size: 10rem;
+    font-weight: 800;
+    letter-spacing: -3px;
+    color: #ebeced;
+    text-align: center;
+}
+.primary-parag{
+    font-size: 2rem;
+    color: #7f7f7f;
+    text-align: center;
+    margin-top: -3rem;
+}
+@media(max-width:48em){
+    .primary-heading{
+        font-size: 7rem;
+    }
+}
+.grid--3{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(30rem, 1fr));
+}

@@ -1,0 +1,48 @@
+/* SMALL DEVICES: 768px */
+@media(max-width: 48em){
+    .container{
+        max-width: 75rem;
+    }
+    .service{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* MEDIUM DEVICES: 992px */
+@media(max-width: 62em){
+    .container{
+        max-width: 97rem;
+    }
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text{
+        padding-left: 0;
+    }
+    .about-img-box::before,
+    .about-img-box::after{
+        display: none;
+    }
+    .about-img-box{
+        margin: 0 auto 6rem;
+    }
+    .about-text{
+        padding-left: 0;
+    }
+    .label,
+    .email-contact{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 70em){
+    .col-img{
+        display: none;
+    }
+}
+/* LARGE DEVICES: 1200px */
+@media(max-width: 75em){
+    .container{
+        max-width: 117rem;
+    }
+}
